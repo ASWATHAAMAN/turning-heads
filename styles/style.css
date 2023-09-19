@@ -35,8 +35,7 @@ img {
   height: auto;
   object-fit: contain;
 }
-.container{
-
+.container {
 }
 
 .header-one {
@@ -90,72 +89,78 @@ img {
   cursor: pointer;
   background-color: dodgerblue;
 }
-.lens{
+.lens {
   width: 25px;
 }
-.box-two{
+.box-two {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 0.75rem 10rem;
-  background-color:black;
+  background-color: black;
 }
-.search-box{
+.search-box {
   display: flex;
   justify-content: flex-start;
   align-items: center;
 }
-.lens{
+.lens {
   margin-right: 10px;
   background: gray;
   border-radius: 50%;
 }
-.search-text{
+.search-text {
   font-size: 20px;
   font-weight: 700;
   color: #fff;
 }
-.logos{
+.logos {
   width: 25px;
   margin-right: 20px;
   background: #fff;
   border-radius: 50%;
 }
-.box-three{
+.box-three {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 2rem 10rem;
 }
-.head{
+.head {
   font-size: 32px;
   font-weight: 700;
 }
-.right-profile{
-    font-size: 18px;
-    font-weight: 500;
-    display: flex;
-    gap: 3rem;
+.right-profile {
+  font-size: 18px;
+  font-weight: 500;
+  display: flex;
+  gap: 3rem;
 }
-.bio-one{
+.bio-one {
   color: var(--clr-tigers-eye);
 }
-.bio:hover{
-  color: var(--clr-tigers-eye); 
+.bio:hover {
+  color: var(--clr-tigers-eye);
   cursor: pointer;
 }
-.image-container{
-  width: 33%;
+.image-container {
+  width: 100%;
   display: flex;
+  justify-content: center;
+  align-items: center;
   gap: 10px;
-  margin-bottom: 1rem;  
+  margin-bottom: 1rem;
 }
-.quote-container{
+
+.image-container img {
+  width: 33%;
+}
+.quote-container {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.quote{
+.quote {
   padding: 1.5rem 3rem;
   border: 1px solid #fff;
   display: inline-block;
@@ -164,116 +169,116 @@ img {
   background-color: #fff;
   margin-top: -3rem;
 }
-.blog-container{
+.blog-container {
   display: flex;
   margin: 1rem 9rem;
 }
-.left-side-blog{
+.left-side-blog {
   display: flex;
   flex-direction: column;
   width: 57%;
 }
-.brush-img-part{
+.brush-img-part {
   display: flex;
   border: 1px solid rgb(165, 160, 160);
 }
-.brush-img{
+.brush-img {
   /* width: 900%; */
   height: 386px;
   margin-right: 2rem;
 }
-.brush{
+.brush {
   width: 289px;
 }
-.blog-one{
+.blog-one {
   padding-top: 1.5rem;
   padding-left: 1rem;
   padding-right: 4rem;
 }
-.date{
+.date {
   font-size: 13px;
   color: gray;
   margin-bottom: 1.5rem;
 }
-.blog-head{
+.blog-head {
   font-size: 26px;
   font-weight: 600;
   width: 200px;
   margin-bottom: 1.5rem;
-} 
-.blog-para{
+}
+.blog-para {
   width: 250px;
   line-height: 30px;
   font-size: 18px;
   color: gray;
 }
-.blog-head:hover{
+.blog-head:hover {
   cursor: pointer;
   color: var(--clr-tigers-eye);
 }
-.blog-para:hover{
+.blog-para:hover {
   cursor: pointer;
   color: var(--clr-tigers-eye);
 }
-.blog-one:hover{
+.blog-one:hover {
   color: var(--clr-tigers-eye);
 }
-.book-img-part{
+.book-img-part {
   display: flex;
   border: 1px solid rgb(165, 160, 160);
   margin-top: 2.2rem;
 }
-.book-img{
+.book-img {
   /* width: 900%; */
   height: 386px;
   margin-right: 2rem;
 }
-.book{
+.book {
   width: 289px;
 }
-.blog-two{
+.blog-two {
   padding-top: 1.5rem;
   padding-left: 1rem;
   padding-right: 4rem;
 }
-.blog-head-two{
+.blog-head-two {
   font-size: 26px;
   font-weight: 600;
   width: 250px;
   margin-bottom: 1.5rem;
-} 
-.blog-head-two:hover{
+}
+.blog-head-two:hover {
   cursor: pointer;
   color: var(--clr-tigers-eye);
 }
-.blog-two:hover{
+.blog-two:hover {
   color: var(--clr-tigers-eye);
 }
-.chair-img-part{
+.chair-img-part {
   display: flex;
   border: 1px solid rgb(165, 160, 160);
   margin-top: 2.2rem;
 }
-.chair-img{
+.chair-img {
   /* width: 900%; */
   height: 386px;
   margin-right: 2rem;
 }
-.chair{
+.chair {
   width: 289px;
 }
-.blog-three{
+.blog-three {
   padding-top: 1.5rem;
   padding-left: 1rem;
   padding-right: 4rem;
 }
-.blog-three:hover{
+.blog-three:hover {
   color: var(--clr-tigers-eye);
 }
-.post-btn{
+.post-btn {
   margin-top: 4rem;
 }
-.post{
+.post {
   padding: 1rem 2rem;
   font-size: 20px;
   font-weight: 500;
@@ -281,48 +286,66 @@ img {
   color: #fff;
   border: none;
 }
-.post:hover{
+.post:hover {
   cursor: pointer;
   background-color: black;
 }
-.right-side-blog{
+.right-side-blog {
   display: flex;
   flex-direction: column;
   margin-left: 3rem;
   /* width: 70%; */
 }
-.right-side-container{
-  background-color:rgb(242, 226, 208);
+.right-side-container {
+  background-color: rgb(242, 226, 208);
   padding: 2rem;
   padding-top: 5rem;
   padding-bottom: 3rem;
 }
-.comment-sec{
-  background-color:var(--clr-tigers-eye);
+.comment-sec {
+  background-color: var(--clr-tigers-eye);
   padding: 3rem 5.5rem;
   padding-bottom: 7rem;
 }
-.comment-title{
+.comment-title {
   font-size: 43px;
   padding-bottom: 2rem;
   color: #fff;
+  width: 70%;
+  margin-left: 7rem;
 }
-.email{
+.mails{
+  padding-left: 6rem;
+}
+
+.mails label{
+  
+}
+.email {
   font-size: 19px;
   font-weight: 500;
   color: #fff;
   margin-left: -1.5rem;
 }
-.mail-box{
+.mail-box {
   padding: 0.5rem;
-  padding-right: 5rem;
+  padding-right: 8rem;
   margin-top: 10px;
   margin-bottom: 1rem;
-  background-color: darkred;
-  border: 3px solid black;
+  background-color: inherit;
+  outline: none;
+  border: none;
+  border-bottom: 3px solid black;
   margin-left: -1.5rem;
 }
-.subscribe{
+.mail-box:hover{
+  border-bottom: 3px solid white;
+}
+.subs{
+  text-align: center;
+  margin-top: 3rem;
+}
+.subscribe {
   padding: 1rem 3.5rem;
   text-align: center;
   margin-left: 1rem;
@@ -332,22 +355,27 @@ img {
   background-color: #fff;
   border: 1px solid var(--clr-tigers-eye);
 }
-.subscribe:hover{
+.subscribe:hover {
   background-color: black;
   color: #fff;
 }
-.text-line{
+.text-line {
   font-size: 30px;
   font-weight: 500;
   text-align: center;
   margin-top: 4rem;
 }
-.blog-img-container{
+.blog-img-container {
   display: grid;
-  grid-template-columns: repeat(2,1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 10px;
   margin-top: 2rem;
   /* position: relative; */
+}
+.blog-imgs{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 /* .blog-img{
   position: absolute;
@@ -359,52 +387,53 @@ img {
   opacity: 0;
 } */
 
-.social-media-icon{
-  text-align: center; 
+.social-media-icon {
+  text-align: center;
   margin-top: 2.5rem;
 }
-.logo{
+.logo {
   width: 25px;
   margin-right: 20px;
 }
-.last{
+.last {
   background-color: rgb(242, 226, 208);
   padding-top: 5rem;
 }
-.last-head{
+.last-head {
   text-align: center;
   font-size: 45px;
   padding-bottom: 6rem;
 }
-.form-sheet{
+.form-sheet {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.part-one{
+.part-one {
   margin-right: 6rem;
 }
-.msg{
+.msg {
   font-size: 15px;
 }
-.messages{
+.messages {
   margin-top: 1rem;
   margin-bottom: 3rem;
   border: none;
+  outline: none;
   border-bottom: 1px solid black;
-  padding-left: 4rem;
-  padding-right: 4rem;
+  /* padding-left: 4rem; */
+  padding-right: 8rem;
   background-color: rgb(242, 226, 208);
 }
-.messages:hover{
+.messages:hover {
   border-bottom: 3px solid var(--clr-tigers-eye);
 }
-.sub-btn{
+.sub-btn {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.btn-submit{
+.btn-submit {
   font-size: 20px;
   font-weight: 500;
   text-align: center;
@@ -414,20 +443,34 @@ img {
   border: var(--clr-tigers-eye);
   margin-bottom: 7rem;
 }
-.btn-submit:hover{
+.btn-submit:hover {
   background-color: black;
   color: #fff;
 }
-.license-container{
+.license-container {
   background-color: var(--clr-tigers-eye);
   color: #fff;
   padding: 1.5rem 1rem;
   text-align: center;
 }
-.license-text{
+.license-text {
   font-size: 16px;
 }
-.brand{
+.brand {
   color: #fff;
   text-decoration: underline;
+}
+
+.box {
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+.box .header-one {
+  background-color: white;
+}
+
+.image-container {
+  margin-top: 12rem;
 }
